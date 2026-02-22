@@ -1,0 +1,15 @@
+{
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2026-02-09 14:48:28 +0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:swamp": "2026-02-09 14:48:28 +0400"
+    },
+    "done": false
+  },
+  "DataVersion": 2586
+}

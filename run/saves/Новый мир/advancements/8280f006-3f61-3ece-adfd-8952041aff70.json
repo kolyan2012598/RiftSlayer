@@ -1,0 +1,10 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:river": "2026-02-06 15:59:50 +0400",
+      "minecraft:wooded_mountains": "2026-02-06 15:59:34 +0400"
+    },
+    "done": false
+  },
+  "DataVersion": 2586
+}

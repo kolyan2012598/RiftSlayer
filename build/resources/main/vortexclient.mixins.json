@@ -1,0 +1,32 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "vortex.client.vortexclient.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "InGameHudMixin",
+    "GameRendererMixin",
+    "KeyboardMixin",
+    "TitleScreenMixin",
+    "SessionAccessor",
+    "EntityMixin",
+    "BlockMixin",
+    "SplashScreenMixin",
+    "ChatScreenMixin",
+    "ClientPlayNetworkHandlerMixin",
+    "PlayerMoveC2SPacketAccessor",
+    "HeldItemRendererMixin",
+    "RenderTickCounterMixin",
+    "LivingEntityRendererMixin",
+    "PauseScreenMixin",
+    "EntityVelocityUpdateS2CPacketAccessor",
+    "ExplosionS2CPacketAccessor",
+    "WorldRendererMixin",
+    "EntityVelocityUpdateS2CPacketMixin",
+    "MinecraftClientMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

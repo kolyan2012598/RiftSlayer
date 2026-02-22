@@ -1,0 +1,67 @@
+---- Minecraft Crash Report ----
+// Don't be sad. I'll do better next time, I promise!
+
+Time: 06.02.2026, 15:31
+Description: Initializing game
+
+java.lang.ExceptionInInitializerError
+	at knot//net.minecraft.client.option.GameOptions.<init>(GameOptions.java:146)
+	at knot//net.minecraft.client.MinecraftClient.<init>(MinecraftClient.java:440)
+	at knot//net.minecraft.client.main.Main.main(Main.java:177)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)
+Caused by: java.lang.RuntimeException: java.lang.UnsatisfiedLinkError: Failed to locate library: liblwjgl.so
+	at knot//net.minecraft.client.util.InputUtil.<clinit>(InputUtil.java:46)
+	... 7 more
+Caused by: java.lang.UnsatisfiedLinkError: Failed to locate library: liblwjgl.so
+	at knot//org.lwjgl.system.Library.loadSystem(Library.java:174)
+	at knot//org.lwjgl.system.Library.loadSystem(Library.java:64)
+	at knot//org.lwjgl.system.Library.<clinit>(Library.java:52)
+	at knot//org.lwjgl.glfw.GLFW.<clinit>(GLFW.java:30)
+	at java.base/jdk.internal.misc.Unsafe.ensureClassInitialized0(Native Method)
+	at java.base/jdk.internal.misc.Unsafe.ensureClassInitialized(Unsafe.java:1160)
+	at java.base/java.lang.invoke.DirectMethodHandle.checkInitialized(DirectMethodHandle.java:383)
+	at java.base/java.lang.invoke.DirectMethodHandle.ensureInitialized(DirectMethodHandle.java:371)
+	at java.base/java.lang.invoke.DirectMethodHandle.ensureInitialized(DirectMethodHandle.java:393)
+	at knot//net.minecraft.client.util.InputUtil.<clinit>(InputUtil.java:43)
+	... 7 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at knot//net.minecraft.client.option.GameOptions.<init>(GameOptions.java:146)
+	at knot//net.minecraft.client.MinecraftClient.<init>(MinecraftClient.java:440)
+
+-- Initialization --
+Details:
+Stacktrace:
+	at knot//net.minecraft.client.main.Main.main(Main.java:177)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.16.5
+	Minecraft Version ID: 1.16.5
+	Operating System: Linux (amd64) version 6.14.0-37-generic
+	Java Version: 21.0.10, Ubuntu
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Ubuntu
+	Memory: 395871384 bytes (377 MB) / 878706688 bytes (838 MB) up to 3068133376 bytes (2926 MB)
+	CPUs: 4
+	JVM Flags: 0 total; 
+	Launched Version: Fabric
+	Backend library: LWJGL version 3.3.2-snapshot
+	Backend API: ~~ERROR~~ NoClassDefFoundError: Could not initialize class org.lwjgl.glfw.GLFW
+	GL Caps: 
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fabric'
+	Type: Client (map_client.txt)
+	CPU: <unknown>

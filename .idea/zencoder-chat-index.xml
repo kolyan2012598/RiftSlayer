@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ai.zencoder.plugin.chat.index">
+    <option name="activeChatId" value="005e5b0c-2193-4722-8ced-dc171bce378c" />
+    <option name="chatMetadata" value="{&quot;005e5b0c-2193-4722-8ced-dc171bce378c&quot;:{&quot;id&quot;:&quot;005e5b0c-2193-4722-8ced-dc171bce378c&quot;,&quot;title&quot;:&quot;Fix this: mc.player.getAbilities() Cannot resol...&quot;,&quot;createdAt&quot;:1771148042406,&quot;updatedAt&quot;:1771148062957,&quot;isAgent&quot;:true,&quot;messageCount&quot;:2,&quot;lastMessagePreview&quot;:&quot;Something went wrong. Please try again later&quot;,&quot;lastUserMessageAt&quot;:1771148043562}}" />
+  </component>
+</project>

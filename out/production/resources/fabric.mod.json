@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "vortexclient",
+  "version": "${version}",
+  "name": "VortexClient",
+  "description": "CheatClient",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/vortexclient/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "vortex.client.vortexclient.client.VortexclientClient"
+    ],
+    "main": [
+      "vortex.client.vortexclient.Vortexclient"
+    ]
+  },
+  "mixins": [
+    "vortexclient.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}

@@ -1,0 +1,346 @@
+{
+  "modules": {
+    "AutoArmor": {
+      "enabled": false,
+      "settings": {}
+    },
+    "AutoTotem": {
+      "enabled": true,
+      "settings": {}
+    },
+    "Criticals": {
+      "enabled": false,
+      "settings": {}
+    },
+    "KillAura": {
+      "enabled": false,
+      "settings": {
+        "Priority": "god",
+        "Range": 9.96,
+        "AutoBlock": false
+      }
+    },
+    "TriggerBot": {
+      "enabled": false,
+      "settings": {
+        "Min CPS": 20.0,
+        "Max CPS": 20.0
+      }
+    },
+    "Velocity": {
+      "enabled": false,
+      "settings": {
+        "Horizontal": 0.0,
+        "Vertical": 0.0
+      }
+    },
+    "Surround": {
+      "enabled": false,
+      "settings": {}
+    },
+    "ProjectileAimbot": {
+      "enabled": false,
+      "settings": {
+        "Range": 100.0
+      }
+    },
+    "BedNuker": {
+      "enabled": false,
+      "settings": {
+        "Range": 5.0
+      }
+    },
+    "AirJump": {
+      "enabled": false,
+      "settings": {}
+    },
+    "AutoSprint": {
+      "enabled": false,
+      "settings": {}
+    },
+    "ElytraFly": {
+      "enabled": false,
+      "settings": {
+        "Mode": "Packet",
+        "Speed": 1.8
+      }
+    },
+    "Flight": {
+      "enabled": false,
+      "settings": {
+        "Mode": "Vulcan",
+        "Speed": 1.0
+      }
+    },
+    "InventoryMove": {
+      "enabled": false,
+      "settings": {}
+    },
+    "NoClip": {
+      "enabled": false,
+      "settings": {
+        "Speed": 0.5
+      }
+    },
+    "SafeWalk": {
+      "enabled": false,
+      "settings": {}
+    },
+    "Scaffold": {
+      "enabled": false,
+      "settings": {
+        "Mode": "GodBridge",
+        "Tower": false,
+        "Auto-Aim": true
+      }
+    },
+    "Speed": {
+      "enabled": false,
+      "settings": {
+        "Mode": "Strafe",
+        "Power": 1.2
+      }
+    },
+    "AutoSpamClient": {
+      "enabled": false,
+      "settings": {}
+    },
+    "AirStuck": {
+      "enabled": false,
+      "settings": {}
+    },
+    "Jesus": {
+      "enabled": false,
+      "settings": {}
+    },
+    "Spider": {
+      "enabled": false,
+      "settings": {}
+    },
+    "Step": {
+      "enabled": false,
+      "settings": {}
+    },
+    "TargetStrafe": {
+      "enabled": false,
+      "settings": {}
+    },
+    "NoSlow": {
+      "enabled": false,
+      "settings": {}
+    },
+    "AutoClicker": {
+      "enabled": false,
+      "settings": {
+        "Min CPS": 8.0,
+        "Max CPS": 12.0
+      }
+    },
+    "FastPlace": {
+      "enabled": false,
+      "settings": {}
+    },
+    "NoFall": {
+      "enabled": false,
+      "settings": {}
+    },
+    "Timer": {
+      "enabled": false,
+      "settings": {
+        "Speed": 1.0
+      }
+    },
+    "AutoTool": {
+      "enabled": false,
+      "settings": {}
+    },
+    "ChestStealer": {
+      "enabled": false,
+      "settings": {
+        "Delay": 100.0,
+        "Random": true
+      }
+    },
+    "Blink": {
+      "enabled": false,
+      "settings": {}
+    },
+    "FastBreak": {
+      "enabled": false,
+      "settings": {}
+    },
+    "AutoFish": {
+      "enabled": false,
+      "settings": {}
+    },
+    "AntiHunger": {
+      "enabled": false,
+      "settings": {}
+    },
+    "XCarry": {
+      "enabled": false,
+      "settings": {}
+    },
+    "ESP": {
+      "enabled": true,
+      "settings": {
+        "Players": true,
+        "Mobs": false,
+        "Animals": false
+      }
+    },
+    "FreeCam": {
+      "enabled": false,
+      "settings": {
+        "Speed": 0.5
+      }
+    },
+    "FullBright": {
+      "enabled": false,
+      "settings": {}
+    },
+    "Glow": {
+      "enabled": true,
+      "settings": {
+        "Players Only": true
+      }
+    },
+    "Hat": {
+      "enabled": true,
+      "settings": {}
+    },
+    "Tracers": {
+      "enabled": true,
+      "settings": {}
+    },
+    "XRay": {
+      "enabled": false,
+      "settings": {}
+    },
+    "FOV": {
+      "enabled": false,
+      "settings": {
+        "FOV": 100.0
+      }
+    },
+    "BlockESP": {
+      "enabled": true,
+      "settings": {}
+    },
+    "NoHurtCam": {
+      "enabled": true,
+      "settings": {}
+    },
+    "Trajectories": {
+      "enabled": true,
+      "settings": {}
+    },
+    "ItemESP": {
+      "enabled": true,
+      "settings": {}
+    },
+    "AutoRespawn": {
+      "enabled": false,
+      "settings": {}
+    },
+    "MCF": {
+      "enabled": false,
+      "settings": {}
+    },
+    "AntiAFK": {
+      "enabled": false,
+      "settings": {}
+    },
+    "AutoReconnect": {
+      "enabled": false,
+      "settings": {}
+    },
+    "Radio": {
+      "enabled": false,
+      "settings": {
+        "URL": ""
+      }
+    },
+    "Spinner": {
+      "enabled": false,
+      "settings": {}
+    },
+    "FakeLag": {
+      "enabled": false,
+      "settings": {}
+    },
+    "Derp": {
+      "enabled": false,
+      "settings": {}
+    },
+    "AutoTrap": {
+      "enabled": false,
+      "settings": {
+        "Range": 5.0
+      }
+    },
+    "HUD": {
+      "enabled": true,
+      "settings": {}
+    },
+    "NoRender": {
+      "enabled": false,
+      "settings": {
+        "NoFire": true,
+        "NoPumpkin": true,
+        "NoNausea": true,
+        "NoBlindness": true
+      }
+    },
+    "ViewModel": {
+      "enabled": false,
+      "settings": {
+        "TranslateX": 0.0,
+        "TranslateY": 0.0,
+        "TranslateZ": 0.0,
+        "Scale": 1.0
+      }
+    },
+    "Masturbate": {
+      "enabled": false,
+      "settings": {
+        "Speed": 1.0,
+        "Intensity": 0.3
+      }
+    },
+    "Chams": {
+      "enabled": true,
+      "settings": {}
+    },
+    "Breadcrumbs": {
+      "enabled": false,
+      "settings": {}
+    },
+    "ChinaHat": {
+      "enabled": true,
+      "settings": {}
+    },
+    "Matrix": {
+      "enabled": false,
+      "settings": {
+        "NoFall Mode": "Packet"
+      }
+    },
+    "EasyAntiCheat": {
+      "enabled": false,
+      "settings": {}
+    },
+    "BattleEye": {
+      "enabled": false,
+      "settings": {}
+    }
+  },
+  "binds": {
+    "airstuck": "K",
+    "elytrafly": "O",
+    "scaffold": "X",
+    "killaura": "R",
+    "triggerbot": "Y",
+    "safewalk": "Z"
+  }
+}

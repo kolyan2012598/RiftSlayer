@@ -1,0 +1,22 @@
+{
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2026-02-09 13:49:30 +0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2026-02-09 13:51:15 +0400",
+      "minecraft:mountains": "2026-02-09 13:49:30 +0400",
+      "minecraft:dark_forest": "2026-02-09 13:51:42 +0400",
+      "minecraft:river": "2026-02-09 13:51:23 +0400",
+      "minecraft:wooded_mountains": "2026-02-09 13:51:28 +0400",
+      "minecraft:wooded_hills": "2026-02-09 13:51:16 +0400",
+      "minecraft:swamp": "2026-02-09 13:51:18 +0400",
+      "minecraft:plains": "2026-02-09 13:51:13 +0400"
+    },
+    "done": false
+  },
+  "DataVersion": 2586
+}

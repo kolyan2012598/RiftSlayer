@@ -1,0 +1,33 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "riftslayer.client.riftslayer.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "InGameHudMixin",
+    "GameRendererMixin",
+    "KeyboardMixin",
+    "TitleScreenMixin",
+    "SessionAccessor",
+    "MinecraftClientMixin",
+    "PlayerEntityRendererMixin",
+    "EntityMixin",
+    "ClientPlayerInteractionManagerMixin",
+    "BlockMixin",
+    "SplashScreenMixin",
+    "ChatScreenMixin",
+    "ClientPlayNetworkHandlerMixin",
+    "PlayerMoveC2SPacketAccessor",
+    "HeldItemRendererMixin",
+    "RenderTickCounterMixin",
+    "LivingEntityRendererMixin",
+    "PauseScreenMixin",
+    "EntityVelocityUpdateS2CPacketAccessor",
+    "ExplosionS2CPacketAccessor",
+    "WorldRendererMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,96 @@
+{
+    "checksum": "8f4a4f06e6b42a9cbe9898085d0d5e7aeab70b4067e7cc89d784c2698573b392",
+    "data": {
+    "id": "005e5b0c-2193-4722-8ced-dc171bce378c",
+    "createdAt": 1771148042406,
+    "updatedAt": 1771148062957,
+    "title": "Fix this: mc.player.getAbilities() Cannot resol...",
+    "messages": [
+        {
+            "id": "9399a61d-cd23-457f-96d1-21ff99bb4ff5",
+            "role": "user",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "Fix this:"
+                },
+                {
+                    "type": "codeSnippet",
+                    "text": "mc.player.getAbilities()",
+                    "language": "java"
+                },
+                {
+                    "type": "text",
+                    "text": "Cannot resolve method 'getAbilities' in 'ClientPlayerEntity'"
+                }
+            ],
+            "context": {
+                "currentFile": {
+                    "fsPath": "/home/kolyan/IdeaProjects/VortexClient/src/main/java/vortex/client/vortexclient/module/modules/movement/Flight.java"
+                }
+            },
+            "createdAt": 1771148043555,
+            "isInternal": false,
+            "rawContent": {
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Fix this:"
+                            },
+                            {
+                                "type": "codeBlock",
+                                "attrs": {
+                                    "language": "java"
+                                },
+                                "content": [
+                                    {
+                                        "type": "text",
+                                        "text": "mc.player.getAbilities()"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "text",
+                                "text": "Cannot resolve method 'getAbilities' in 'ClientPlayerEntity'"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "autoAppliedRules": []
+        },
+        {
+            "id": "df53846b-6b76-4227-ac33-8f13655b1ad0",
+            "role": "system",
+            "content": [
+                {
+                    "type": "errorText",
+                    "text": "Something went wrong. Please try again later",
+                    "actions": [
+                        {
+                            "type": "externalAction",
+                            "title": "Regenerate",
+                            "action": "regenerateLastAnswer"
+                        }
+                    ]
+                }
+            ],
+            "createdAt": 1771148062956,
+            "isInternal": false
+        }
+    ],
+    "isAgent": true,
+    "isCustomAgent": false,
+    "isUnitTestsAgent": false,
+    "isE2EAgent": false,
+    "isWebDevAgent": false,
+    "isQnaAgent": false,
+    "isRepoInfoAgent": false,
+    "model": "auto",
+    "lastUserMessageAt": 1771148043562
+}
+}
